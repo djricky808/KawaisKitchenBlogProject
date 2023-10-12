@@ -1,0 +1,85 @@
+h1,
+h2,
+h3,
+address,
+footer a {
+    font-family: 'Antic Slab', serif;
+    color: #9EB23B;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 72px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+p,
+li,
+ul,
+ol
+{   font-family: 'Antic Slab', serif;
+    color: #000000;
+    padding: 20px;
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+#tripestew {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: auto;
+}
+.tripe2 {
+display: block;
+margin: 0px auto;
+}
+
+
+body {
+    background-color: #fdfbdd;
+}
+
+.button {
+    display: block;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: #603601;
+    color: #E0DECA;
+    font-size: 24px;
+    font-family: 'Antic Slab', serif;
+    width: 200px;
+    height: 50px;
+}
+
+.recipe {
+    position: relative;
+}
+
+.recipecard {
+    background-color: #839720;
+    border-radius: 15px;
+    display: block;
+    border: 20px #603601 dashed; 
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    position: absolute;
+
+}
+section.recipecard h2, section.recipecard h3 {
+    color: #030303;
+}
+.socialmedia a{
+    display: block;
+    margin: 0 auto;
+}
